@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recycler"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="RecyclerView" />
+        <item
+            android:id="@+id/nav_index"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="IndexedRecyclerView" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ListView" />
+    </group>
+
+</menu>
